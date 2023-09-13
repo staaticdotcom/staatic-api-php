@@ -1,0 +1,38 @@
+{
+    "name": "staatic/staatic-api-php",
+    "version": "1.0.0",
+    "description": "Staatic API client library for PHP. Staatic lets you create and deploy a streamlined static version of your WordPress site, enhancing performance, SEO, and security simultaneously.",
+    "keywords": [
+        "staatic",
+        "static site",
+        "wordpress",
+        "speed",
+        "security",
+        "seo",
+        "cache",
+        "cdn"
+    ],
+    "homepage": "https://staatic.com/staatic-api-php",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Team Staatic",
+            "email": "contact@staatic.com",
+            "homepage": "https://staatic.com/"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.8",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.26"
+    },
+    "autoload": {
+        "psr-4": { "Staatic\\Api\\" : "lib/" }
+    }
+}
