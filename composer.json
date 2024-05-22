@@ -1,6 +1,6 @@
 {
     "name": "staatic/staatic-api-php",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Staatic API client library for PHP. Staatic lets you create and deploy a streamlined static version of your WordPress site, enhancing performance, SEO, and security simultaneously.",
     "keywords": [
         "staatic",
