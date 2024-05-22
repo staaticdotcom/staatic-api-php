@@ -13,8 +13,8 @@ Name | Type | Description | Notes
 **endpoint** | **string** |  | [optional]
 **created_at** | **\DateTime** |  | [optional]
 **updated_at** | **\DateTime** |  | [optional]
+**num_submissions** | **array<string,int>** |  | [optional]
 **site_id** | **string** |  | [optional]
 **site_name** | **string** |  | [optional]
-**num_submissions** | **array<string,int>** |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

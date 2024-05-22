@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **company** | **string** |  | [optional]
 **body** | **string** |  | [optional]
 **data** | **object** |  | [optional]
+**http_referrer** | **string** |  | [optional]
 **created_at** | **\DateTime** |  | [optional]
 **updated_at** | **\DateTime** |  | [optional]
 **notified_at** | **\DateTime** |  | [optional]
