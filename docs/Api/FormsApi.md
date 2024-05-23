@@ -974,7 +974,7 @@ try {
 ## `getForms()`
 
 ```php
-getForms($page, $per_page, $sort, $direction, $site_id, $name, $query): \Staatic\Api\Model\FormCollection
+getForms($page, $per_page, $sort, $direction, $site_id, $name, $include, $query): \Staatic\Api\Model\FormCollection
 ```
 
 Gets a collection of forms
@@ -1005,10 +1005,11 @@ $sort = 'sort_example'; // string | The field to sort the results by
 $direction = 'direction_example'; // string | The direction to sort the results by
 $site_id = 'site_id_example'; // string | The site ID to filter the result
 $name = 'name_example'; // string | The form name to filter the result
+$include = 'include_example'; // string | Comma-separated list of additional properties to include in the result
 $query = 'query_example'; // string | Search query to filter the result
 
 try {
-    $result = $apiInstance->getForms($page, $per_page, $sort, $direction, $site_id, $name, $query);
+    $result = $apiInstance->getForms($page, $per_page, $sort, $direction, $site_id, $name, $include, $query);
     print_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling FormsApi->getForms: ', $e->getMessage(), PHP_EOL;
@@ -1025,6 +1026,7 @@ try {
 | **direction** | **string**| The direction to sort the results by | [optional] |
 | **site_id** | **string**| The site ID to filter the result | [optional] |
 | **name** | **string**| The form name to filter the result | [optional] |
+| **include** | **string**| Comma-separated list of additional properties to include in the result | [optional] |
 | **query** | **string**| Search query to filter the result | [optional] |
 
 ### Return type

@@ -14,6 +14,7 @@ Name | Type | Description | Notes
 **created_at** | **\DateTime** |  | [optional]
 **updated_at** | **\DateTime** |  | [optional]
 **num_submissions** | **array<string,int>** |  | [optional]
+**last_submission** | [**\Staatic\Api\Model\FormSubmission**](FormSubmission.md) |  | [optional]
 **site_id** | **string** |  | [optional]
 **site_name** | **string** |  | [optional]
 
